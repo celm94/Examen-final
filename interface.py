@@ -7,6 +7,7 @@ alto = 400
 principal.geometry(str(ancho)+'x'+str(alto))
 principal.title("Examen Final")
 
+
 txt1 = Label(principal, text= 'Nombre')
 txt1.pack()
 input1= Entry(principal)
@@ -31,5 +32,21 @@ txt5 = Label(principal, text= 'Año')
 txt5.pack()
 input5= Entry(principal)
 input5.pack()
+
+
+btn1 = Button(principal, text ='Función 1')
+btn1.pack()
+
+btn2 = Button(principal, text ='Función 2')
+btn2.pack()
+
+btn3 = Button(principal, text ='Función 3')
+btn3.pack()
+
+btn4 = Button(principal, text ='Función 4')
+btn4.pack()
+
+btn5 = Button(principal, text ='Función 5')
+btn5.pack()
 
 principal.mainloop()
