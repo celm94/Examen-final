@@ -32,4 +32,5 @@ txt5.pack()
 input5= Entry(principal)
 input5.pack()
 
+
 principal.mainloop()
